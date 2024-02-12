@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'thisSideUp';
+  src: local('thisSideUp'), url('./fonts/thisSideUp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'thisSideUp', sans-serif;
+}
+
+
+button {
+  border: none;
+  border-radius: 20px; /* Adjust this value to control the roundness */
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #f04f78; /* Example color */
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #bf3f5f; /* Darker shade for hover effect */
+}
+
